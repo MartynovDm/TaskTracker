@@ -2,6 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 3rem;
 
   button,
   button:focus {
@@ -14,8 +15,9 @@
   span {
     margin: 0 1rem 0 1rem;
     text-align: center;
+    font-family: 'Indie Flower', cursive;
+    font-size: 2rem;
   }
-
 }
 
 .material-icons {

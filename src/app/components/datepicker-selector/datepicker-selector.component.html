@@ -1,12 +1,12 @@
 <div class="selector">
 
-  <button class="selector-button">
+  <button (click)="changeMonth(-1)">
     <i class="material-icons">arrow_left</i>
   </button>
 
-  <span>Now date</span>
+  <span>{{ currentDate }}</span>
 
-  <button class="selector-button">
+  <button (click)="changeMonth(1)">
     <i class="material-icons">arrow_right</i>
   </button>
 
